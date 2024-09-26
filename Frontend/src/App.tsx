@@ -10,12 +10,13 @@ const App: React.FC = () => {
         <Router>
             <div>
                 <Routes>
-                    <Route path="/" element={<CharacterList />} />
+                    <Route path="/" element={<h1>Dragepust <br/> Character Creator</h1>}/>
                     <Route path="/create-character" element={<CharacterForm />} />
+                    <Route path="/characterlist" element={<CharacterList />} />
                 </Routes>
             </div>
         </Router>
-        <h1>Dragepust</h1>;
+
         </>
     );
 };
